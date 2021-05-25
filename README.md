@@ -68,3 +68,12 @@ newgrp docker
 docker run hello-world
 ```
 
+## kube
+```
+curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-341.0.0-linux-x86_64.tar.gz
+tar -xvf google-cloud-sdk-341.0.0-linux-x86_64.tar.gz
+./google-cloud-sdk/install.sh
+gcloud components install cloud-build-local
+gcloud components install minikube
+minikube start
+```
