@@ -20,6 +20,6 @@ sudo apt-get install -y \
     libssl-dev \
     git
 sudo apt-get install -y zsh
-curl -L http://install.ohmyz.sh | sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 ```
