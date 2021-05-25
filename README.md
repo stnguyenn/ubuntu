@@ -32,9 +32,15 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt install python3.9
 ```
 
-# go
+## go
 ```
 sudo add-apt-repository ppa:longsleep/golang-backports
 sudo apt update
 sudo apt install golang-go
+```
+
+## node
+```
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt install nodejs
 ```
