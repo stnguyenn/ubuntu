@@ -73,7 +73,12 @@ docker run hello-world
 curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-341.0.0-linux-x86_64.tar.gz
 tar -xvf google-cloud-sdk-341.0.0-linux-x86_64.tar.gz
 ./google-cloud-sdk/install.sh
+
 gcloud components install cloud-build-local
 gcloud components install minikube
 minikube start
+
+curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
+chmod 700 get_helm.sh
+./get_helm.sh
 ```
